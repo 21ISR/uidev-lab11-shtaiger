@@ -1,92 +1,108 @@
-<html>
+<html lang="en">
 
-<head>
-  <title>Сайт хуйни</title>
-  <meta charset=utf-8>
-  <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Шкрябин Арсен</title>
+        <link rel="stylesheet" href="reset.css"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <h1>Магазин компьютерных комплектующих</h1>
+            <nav>   
+              <div>
+                <button class="nav-button">Процессоры</button>
+                <button class="nav-button">Видеокарты</button>
+                <button class="nav-button">Материнские платы</button>
+                <button class="nav-button">Оперативная память</button>
+              </div>
 
-<body class="body">
-  <div></div>
-  <div class="div">
-    <header>
-      <h1>Магазин компьютерных комплектующих</h1>
-      <div class="button_header">
-        <button class="header">Процессоры</button>
-        <button class="header">Видеокарты</button>
-        <button class="header">Материнские платы</button>
-        <button class="header">Оперативная память</button>
-      </div>
-    </header>
+                <form>
+                    <label class="cool-form">Категория</label>
+                    <select  class="cool-form">
+                    <option>Процессоры</option>
+                    <option>Видеокарты</option>
+                    <option>Материнские платы</option>
+                    <option>Оперативная память</option>
+                    </select>
+                </form>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <img src="/ma.png"/>
+                    <h2>Intel Core i9-11900K</h2>
+                    <p>Высокопроизводительный процессор с 8 ядреми и тактовой частотой до 5.3 ггц.</p>
+                    <p class="price">45,000ТГ</p>
+                    <button class="buy-button">КОТАК</button>
+                </article>
+                <article>
+                    <img src="/ma.png"></img>
+                    <h2>AMD Ryzen 9 5900X</h2>
+                    <p>Процессор с 12 ядрами и 74 потоками дли максимальной производительности.</p>
+                    <p class="price">50,000ТГ</p>
+                    <button class="buy-button">КОТАК</button>
+                </article>
 
-    <main class="main main_element">
-      <div class="card">
-        <img src="https://sun9-55.userapi.com/impg/Sx8Bfs8Cw1Oj4yg0guseOfEBdu-rd-ptorPOgg/Wl30U7MIgzQ.jpg?size=799x800&quality=95&sign=40df9220817de19bac6b7f75e5ad5784&type=album" alt="тут должна быть картинка" />
-        <h2>Inrel Core i9-19900К</h2>
-        <p class="p_card">Высокопроизводительный процессор с 8 ядрами и тактовой частотой до 5.3 ГГц.</p>
-        <h3>45,000ТГ</h3>
-        <button class="button">Депортировать</button>
-        
-      </div>
-      <div class="card">
-        <img src="https://sun9-55.userapi.com/impg/Sx8Bfs8Cw1Oj4yg0guseOfEBdu-rd-ptorPOgg/Wl30U7MIgzQ.jpg?size=799x800&quality=95&sign=40df9220817de19bac6b7f75e5ad5784&type=album" />
-        <h2>AMD Ryzen 9 5900X</h2>
-        <p class="p_card">Процессор с 12 ядрами и 24 потоками для максимальной производительности.</p>
-        <h3>50,000ТГ</h3>
-        <button class="button">Депортировать</button>
-      </div>
-      <div class="card">
-        <img
+                <article>
+                    <img src="/ma.png"></img>
+                    <h2>NVIDIA GeForce RTX 3080</h2>
+                    <p>Мощная Видеокарта с 10 15-GDDR6X памяти для игр в 4к.</p>
+                    <p class="price">70,000ТГ</p>
+                    <button class="buy-button">КОТАК</button>
+                </article>
 
-           src="https://sun9-55.userapi.com/impg/Sx8Bfs8Cw1Oj4yg0guseOfEBdu-rd-ptorPOgg/Wl30U7MIgzQ.jpg?size=799x800&quality=95&sign=40df9220817de19bac6b7f75e5ad5784&type=album"> 
-        <h2>NVIDIA GeForce RTX 3080</h2>
-        <p class="p_card">Мощная видеокарта с 10ГБ GDDR6X памяти для игры в 4к.</p>
-        <h3>70,000ТГ</h3>
-        <button class="button">Депортировать</button>
-      </div>
-      <div class="card">
-        <img
-          src="https://sun9-55.userapi.com/impg/Sx8Bfs8Cw1Oj4yg0guseOfEBdu-rd-ptorPOgg/Wl30U7MIgzQ.jpg?size=799x800&quality=95&sign=40df9220817de19bac6b7f75e5ad5784&type=album">
-        <h2>AMD Radeon RX 6800</h2>
-        <p class="p_card">Видеокарта с 16 ГБ GDDR6 памяти для геймеров и контент-креаторов.</p>
-        <h3>65,000ТГ</h3>
-        <button class="button">Депортировать</button>
-      </div>
-      <div class="card">
-        <img
-          src="https://sun9-55.userapi.com/impg/Sx8Bfs8Cw1Oj4yg0guseOfEBdu-rd-ptorPOgg/Wl30U7MIgzQ.jpg?size=799x800&quality=95&sign=40df9220817de19bac6b7f75e5ad5784&type=album">
-        <h2>ASUS Strix B450-F</h2>
-        <p class="p_card">Материнская плата для процессоров AMD с поддержкой RGB.</p>
-        <h3>12,000ТГ</h3>
-        <button class="button">Депортировать</button>
-      </div>
-      <div class="card">
-        <img
-          src="https://sun9-55.userapi.com/impg/Sx8Bfs8Cw1Oj4yg0guseOfEBdu-rd-ptorPOgg/Wl30U7MIgzQ.jpg?size=799x800&quality=95&sign=40df9220817de19bac6b7f75e5ad5784&type=album">
-        <h2>MSI Z490-A PRO</h2>
-        <p class="p_card">Материнская плата для процессоров Intel 10-го поколения с высокоскоростными портами.</p>
-        <h3>15,000ТГ</h3>
-        <button class="button">Депортировать</button>
-      </div>
-      <div class="card">
-        <img
-        src="https://sun9-55.userapi.com/impg/Sx8Bfs8Cw1Oj4yg0guseOfEBdu-rd-ptorPOgg/Wl30U7MIgzQ.jpg?size=799x800&quality=95&sign=40df9220817de19bac6b7f75e5ad5784&type=album">
-        <h2>Corsair Vengeance LPX 16GB</h2>
-        <p class="p_card">Оперативная память DDR4 с частотой 3200 МГц.</p>
-        <h3>5,000ТГ</h3>
-        <button class="button">Депортировать</button>
-      </div>
-      <div class="card">
-        <img
-        src="https://sun9-55.userapi.com/impg/Sx8Bfs8Cw1Oj4yg0guseOfEBdu-rd-ptorPOgg/Wl30U7MIgzQ.jpg?size=799x800&quality=95&sign=40df9220817de19bac6b7f75e5ad5784&type=album">
-        <h2>G.Skill Trident Z RGB 16GB</h2>
-        <p class="p_card">Оперативная память DDR4 с частотой 3600 МГц и RGB-подсветкой</p>
-        <h3>8,000ТГ</h3>
-        <button class="button">Депортировать</button>
-      </div>
-    </main>
-    <script src="script.js"></script>
-  </div>
-  <div></div>
-</body>
+                <article>
+                    <img src="/ma.png"></img>
+                    <h2>AMD Radeon RX 6800</h2>
+                    <p>Видеокарта с 16 ГБ GDDRS памяти для геймеров и контент-креаторов.</p>
+                    <p class="price">65,000ТГ</p>
+                    <button class="buy-button">КОТАК</button>
+                </article>
+
+                <article>
+                    <img src="/ma.png"></img>
+                    <h2>ASUS Strix B450-F</h2>
+                    <p>Материнская плата для процессоров AMD с поддержкой RGB.</p>
+                    <p class="price">12,000ТГ</p>
+                    <button class="buy-button">КОТАК</button>
+                </article>
+
+                <article>
+                    <img src="/ma.png"></img>
+                    <h2>MSI Z490-A PRO</h2>
+                    <p>Материнская плата для процессоров Intel 10-го поколения с высокоскоростными портами.</p>
+                    <p class="price">15,000ТГ</p>
+                    <button class="buy-button">КОТАК</button>
+                </article>
+
+                <article>
+                    <img src="/ma.png"></img>
+                    <h2>Corsair Vengeance LPX 16GB</h2>
+                    <p>Оперативная память DDR4 с частотой 3200 МГц.</p>
+                    <p class="price">5,000ТГ</p>
+                    <button class="buy-button">КОТАК</button>
+                </article>
+
+                <article>
+                    <img src="/ma.png"></img>
+                    <h2>G.Skill Trident Z RGB 16GB</h2>
+                    <p>Оперативная память DDR4 с частотой 3600 МГц и RGB-подсветкой.</p>
+                    <p class="price">8,000ТГ</p>
+                    <button class="buy-button">КОТАК</button>
+                </article>
+            </section>
+        </main> 
+    </body>
 </html>
+
+<!-- src="https://sun9-55.userapi.com/impg/Sx8Bfs8Cw1Oj4yg0guseOfEBdu-rd-ptorPOgg/Wl30U7MIgzQ.jpg?size=799x800&quality=95&sign=40df9220817de19bac6b7f75e5ad5784&type=album">
+<h2>G.Skill Trident Z RGB 16GB</h2>
+<p class="p_card">Оперативная память DDR4 с частатой 3600 МГц и RGB-подсветкой</p>
+<h3>8,000ТГ</h3>
+<button class="button">Депортировать</button> -->
